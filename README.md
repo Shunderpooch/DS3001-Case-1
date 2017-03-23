@@ -21,3 +21,8 @@ This project requires the following packages:
 The notebook `case1.ipynb` can be executed top to bottom to produce our results and visualizations.
 
 The existing `Results.json` file is used to load the data. To load the data again from Twitter, enable the flag `retrieve_new_tweets` in the *Data Collection* block. This will attempt to download 10,000 tweets.
+
+## Potential issues
+
+With some systems, colors are repeated for visualizations such as the the histograms and map chart.
+This is not the case with most systems, the cause of the issue is currently unknown. 
